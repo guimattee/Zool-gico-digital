@@ -5,8 +5,8 @@ import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Predado
 
 public class Salmao extends Peixe implements Nadador, Predador   {
 	
-	public Salmao(String nome, int idade, String tipoAgua) {
-		super(nome, idade, "Água salgada");
+	public Salmao(String nome, int idade) {
+		super(nome, idade, "Água doce e salgada");
 	}
 	
     @Override

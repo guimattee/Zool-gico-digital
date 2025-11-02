@@ -6,7 +6,7 @@ import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Predado
 public class Aguia extends Ave implements Voador, Predador {
 	
 	public Aguia(String nome, int idade, String corPenas) {
-		super(nome, idade, "Marrom e branco");
+		super(nome, idade, corPenas);
 	}
 	
     @Override

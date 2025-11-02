@@ -4,7 +4,6 @@ import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Corredo
 import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Nadador;
 import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Predador;
 
-
 public class Cachorro extends Mamifero implements Nadador,Corredor,Predador{
 
     private String raca;

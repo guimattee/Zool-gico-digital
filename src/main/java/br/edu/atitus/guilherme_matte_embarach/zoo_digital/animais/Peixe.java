@@ -4,7 +4,7 @@ public abstract class Peixe extends Animal {
     private String tipoAgua; 
 
     public Peixe(String nome, int idade, String tipoAgua) {
-        super(nome, idade, "Peixe"); 
+        super(nome, idade, tipoAgua); 
         this.tipoAgua = tipoAgua;
     }
 

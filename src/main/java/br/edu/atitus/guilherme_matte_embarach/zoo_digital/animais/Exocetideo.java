@@ -4,7 +4,7 @@ import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Nadador
 import br.edu.atitus.guilherme_matte_embarach.zoo_digital.comportamentos.Voador;
 
 public class Exocetideo extends Peixe implements Voador, Nadador {
-	public Exocetideo(String nome, int idade, String tipoAgua) {
+	public Exocetideo(String nome, int idade) {
 		super(nome, idade, "Água salgada");
 	}
 	

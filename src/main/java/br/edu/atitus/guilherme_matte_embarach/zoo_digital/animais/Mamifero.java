@@ -1,4 +1,5 @@
 package br.edu.atitus.guilherme_matte_embarach.zoo_digital.animais;
+
 public abstract class Mamifero extends Animal {
     private boolean temPelo;
 
