@@ -99,6 +99,7 @@ public class ZooDigitalApp {
         System.out.println("14. Quero-Quero");
         System.out.println("15. Salmão");
         System.out.println("16. Traíra");
+        System.out.println("17. Tubarão");
         System.out.print("Escolha uma opção: ");
         
         String tipo = scanner.nextLine();
@@ -176,6 +177,10 @@ public class ZooDigitalApp {
             
         case "16":
             novoAnimal = new Traira(nome, idade);
+            break;
+            
+        case "17":
+            novoAnimal = new Tubarao(nome, idade);
             break;
             
         default:

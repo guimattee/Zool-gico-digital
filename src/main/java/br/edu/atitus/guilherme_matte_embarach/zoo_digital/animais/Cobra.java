@@ -19,7 +19,7 @@ public class Cobra extends Reptil implements Predador {
     
     @Override
     public void comer() {
-        System.out.println(getNome() + " está c");
+        System.out.println(getNome() + " está comendo");
     }
 
 }
